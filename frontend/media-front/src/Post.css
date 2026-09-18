@@ -1,0 +1,90 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+  padding-left: 4px;
+}
+
+.post-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.post-avatar-placeholder {
+  background: #25d366;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.post-author-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.post-author-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #075e54;
+}
+
+.post-author-handle {
+  font-size: 0.75rem;
+  color: #25d366;
+}
+
+.post-bubble {
+  background: #fff;
+  border-radius: 0 12px 12px 12px;
+  padding: 8px 12px;
+  margin-left: 48px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  position: relative;
+  max-width: 100%;
+}
+
+.post-bubble::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 8px solid #fff;
+  border-left: 8px solid transparent;
+}
+
+.post-content {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #303030;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.7rem;
+  color: #999;
+  margin-top: 4px;
+}
+
+.post-likes {
+  color: #e91e63;
+}

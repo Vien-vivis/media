@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitverse.ru/itetomagia/chirik-social-media.git"
+    "url": "https://gitflic.ru/project/vien/media"
   },
   "keywords": [
     "node",
@@ -22,6 +22,7 @@
   "author": "P. Buinizki",
   "license": "MIT",
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/dotenv": "^6.1.1",
     "@types/express": "^5.0.6",
     "@types/node": "^26.4.1",
@@ -30,6 +31,7 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
   }
